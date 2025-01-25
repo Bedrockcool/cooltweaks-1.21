@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "cool-tweaks",
 	"version": "${version}",
-	"name": "Cool tweaks",
-	"description": "Cool tweaks by Bedrock for pvp",
+	"name": "Cool Tweaks",
+	"description": "Cool tweaks by Bedrock for PvP",
 	"authors": [
 		"Bedrock"
 	],
@@ -15,8 +15,11 @@
 	"icon": "assets/cool-tweaks/icon.png",
 	"environment": "*",
 	"entrypoints": {
+		"main": [
+			"net.bedrock.cooltweaks.CoolTweaks"
+		],
 		"client": [
-			"net.bedrock.cooltweaks.CoolTweaksclient"
+			"net.bedrock.cooltweaks.CoolTweaksClient"
 		],
 		"fabric-datagen": [
 			"net.bedrock.cooltweaks.CoolTweaksDataGenerator"

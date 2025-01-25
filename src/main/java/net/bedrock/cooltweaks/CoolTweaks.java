@@ -13,5 +13,12 @@ public class CoolTweaks implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
+
 	}
+
+	private static void registerCommands() {
+
+
+	}
+
 }
